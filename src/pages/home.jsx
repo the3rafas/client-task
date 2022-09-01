@@ -34,7 +34,7 @@ const Home = (props) => {
       setData(dataList);
     };
 
-    FetchReqest({ url: "https://bd5f-102-42-111-216.eu.ngrok.io/" }, dataHandeler);
+    FetchReqest({ url: "http://localhost:5000/" }, dataHandeler);
   };
 
   /* Control of re-Fetch */

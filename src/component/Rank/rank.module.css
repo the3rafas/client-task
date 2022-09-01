@@ -1,0 +1,18 @@
+.rank{
+    width: 7rem;
+    height: 8rem;
+    transform: rotate3d(1, 1, 1, 359deg);
+    border-top-left-radius: 2.3rem;
+    border-top-right-radius: 2.3rem;
+    border-bottom-right-radius: 31.3rem;
+    border-bottom-left-radius: 4rem;
+    margin: 2rem;
+    box-shadow: -6px 7px 11px 0 black;
+    background-color: #0d3892;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -35px;
+    left: 0%;
+}
